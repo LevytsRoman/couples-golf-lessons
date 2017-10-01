@@ -97,6 +97,8 @@
     <Compile Include="Assets\HoloPlaySDK\internal\Scripts\HoloPlay.cs" />
     <Compile Include="Assets\HoloPlaySDK\internal\Scripts\HoloPlayConfig.cs" />
     <Compile Include="Assets\HoloPlaySDK\internal\Scripts\HoloPlayOnViewRenderTest.cs" />
+    <Compile Include="Assets\Putter.cs" />
+    <Compile Include="Assets\RotateClub.cs" />
     <Compile Include="Assets\rotateCourse.cs" />
     <Compile Include="Assets\Score.cs" />
     <Compile Include="Assets\TiltHoloPlay.cs" />
