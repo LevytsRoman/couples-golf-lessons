@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/KissLevel.unity
     guid: e884e29057e9d02409c4374f2daa91c3
+  - enabled: 1
+    path: Assets/SecondHole.unity
+    guid: dfbe5e8f4ed52cd418df178e138109a3

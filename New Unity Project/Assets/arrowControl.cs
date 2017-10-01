@@ -11,13 +11,13 @@ public class arrowControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Rotate(0, 0, 10);
+            transform.Rotate(0, 0, 1);
         }
-        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Rotate(0, 0, -10);
+            transform.Rotate(0, 0, -1);
         }
 
         /*if (Input.GetKeyDown(KeyCode.Space))

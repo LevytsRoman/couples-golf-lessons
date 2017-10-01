@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Score : MonoBehaviour {
+public class PowerBarView : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -11,10 +11,6 @@ public class Score : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
-    void OnCollisionEnter(Collision collision) {
-        print("collision");
-        Application.LoadLevel("SecondHole");
+        transform.LookAt(Camera.main.transform.position, -Vector3.up);
     }
 }

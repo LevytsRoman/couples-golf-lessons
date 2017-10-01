@@ -18,13 +18,13 @@ public class ballMovement : MonoBehaviour {
             arrowObj.GetComponent<Transform>().position = transform.position;
         }
         // Angle of shot
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Rotate(0, -10, 0);
+            transform.Rotate(0, -1, 0);
         }
-        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Rotate(0, 10, 0);
+            transform.Rotate(0, 1, 0);
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
